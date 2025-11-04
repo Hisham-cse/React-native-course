@@ -1,4 +1,33 @@
-# .gitignore
+# Node modules
 node_modules/
+
+# Expo / React Native caches
 .expo/
+.expo-shared/
+web-build/
+dist/
+build/
+*.log
+
+# System files
 .DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# TypeScript cache
+*.tsbuildinfo
+
+# macOS files
+*.swp
+
+# Optional lockfiles (you can keep if needed)
+# package-lock.json
